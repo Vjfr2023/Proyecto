@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    margin: 0;
+  }
+  .sect {
+    width: 100%;
+    min-height: 800px;
+  }
+  
+  
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 200%;
+    min-height: 200%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+  h1 {
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+  h2 {
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
